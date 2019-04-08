@@ -18,3 +18,9 @@ And i have entered "jack" as second operand
     When i want to create six cards
     Then six Cards should be created
 
+
+  Scenario:
+    Given i have instance of Player class
+    And i have instance of Durak class too
+    When i want to give him six cards
+    Then player should have six cards

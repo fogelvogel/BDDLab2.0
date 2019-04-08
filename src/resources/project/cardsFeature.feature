@@ -12,3 +12,4 @@ And i have createCard function
 When i have entered "hearts" as first operand
 And i have entered "jack" as second operand
   Then the Card should be created
+

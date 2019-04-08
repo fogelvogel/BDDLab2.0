@@ -19,6 +19,7 @@ public class MyStepdefsPlayer {
 
     @When("^i want to give him six cards$")
     public void iWantToGiveHimSixCards() {
+        player.AddCards(instance.CreateSixCards());
     }
 
     @Then("^player should have six cards$")

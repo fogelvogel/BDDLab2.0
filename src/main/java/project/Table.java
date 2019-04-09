@@ -1,11 +1,19 @@
 package project;
 
-public class Player {
+public class Table {
     private Card[] cards;
     private int countCards;
-    public Player() {
+
+    public Card[] getCards() {
+        return cards;
+    }
+
+    public Table() {
         cards = new Card[36];
     }
+
+
+
     public int AddCards(Card[] createSixCards) {
         int len = createSixCards.length;
         for (int i = 0; i < len; i++) {
@@ -13,9 +21,5 @@ public class Player {
             countCards++;
         }
         return 0;
-    }
-
-    public Card[] GiveCard(int arg0) {
-        return new Card[] {cards[arg0]};
     }
 }

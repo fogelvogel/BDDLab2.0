@@ -1,6 +1,10 @@
 package project;
 
 public class Player {
+    public Card[] getCards() {
+        return cards;
+    }
+
     private Card[] cards;
     private int countCards;
     public Player() {
